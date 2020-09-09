@@ -29,7 +29,7 @@ else:
     print 'Applies only to gmail and yahoo.'
     sys.exit()
 
-print ''
+
 
 try:
     server = smtplib.SMTP(smtp_server,port) 
